@@ -47,7 +47,7 @@ const Sidebar = () => {
         <div className="px-2 py-2 w-full flex justify-between items-center">
           <Link to="/">
             <img
-              src="https://todo-app-monorepo.fly.dev/assets/Banner.png"
+              src="https://www.canva.com/design/DAGfi5_dZa8/owa9b0xCVpFP2rONZSJDdA/edit?utm_content=DAGfi5_dZa8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
               className="w-[200px] px-4"
               alt="Logo"
             />

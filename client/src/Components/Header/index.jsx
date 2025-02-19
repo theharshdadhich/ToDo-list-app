@@ -43,7 +43,7 @@ const Header = () => {
           onClick={handleProfileMenuOpen}
         >
           <img
-            src="https://st3.depositphotos.com/1006753/13799/i/450/depositphotos_137996152-stock-photo-natural-face-portrait-of-a.jpg"
+            src="https://depositphotos.com/photo/studio-photo-of-young-handsome-businessman-wearing-suit-327232418.html"
             alt="Profile"
             className="w-full h-full object-cover"
           />
