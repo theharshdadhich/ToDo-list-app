@@ -18,7 +18,7 @@ export const Context = createContext();
 function App() {
   const [isSideBarOpen, setSideBarOpen] = useState(false);
   const [isLogin, setIsLogin] = useState(false);
-  const AppUrl = "https://to-do-list-app-backend-ten.vercel.app/";
+  const AppUrl = "https://to-do-list-app-backend-ten.vercel.app";
     const [searchContent,setSearchContent] = useState("")
   
   const navigate = useNavigate();
@@ -26,7 +26,9 @@ function App() {
   useEffect(() => {
     const token = localStorage.getItem("accessToken");
     setIsLogin(!!token);
-  }, []);
+    if (!token) navigate("/Login");
+}, [navigate]);
+
 
   const expendSidebar = () => setSideBarOpen(!isSideBarOpen);
 
